@@ -88,7 +88,7 @@
             <div class="rounded-2xl bg-gradient-to-br from-cyan-600 to-cyan-500 text-white p-6 shadow-lg">
               <p class="text-xs uppercase font-semibold">Need help now?</p>
               <h3 class="text-xl font-bold mt-2">Visit the official sign-in</h3>
-              <a href="https://syw.accountonline.com" target="_blank" rel="noopener" class="mt-4 inline-block bg-white text-cyan-700 px-4 py-2 rounded-lg font-medium">Open syw.accountonline.com</a>
+              <a href="https://www.shopyourway.com/login" target="_blank" rel="noopener" class="mt-4 inline-block bg-white text-cyan-700 px-4 py-2 rounded-lg font-medium">Open syw.accountonline.com</a>
             </div>
           </div>
         </div>
@@ -192,7 +192,7 @@
             <h4 class="text-lg font-semibold">Troubleshooting & Quick Checklist</h4>
             <p class="mt-2 text-slate-700">Use this checklist to diagnose common problems before contacting support.</p>
             <ul class="list-decimal pl-5 mt-3 text-slate-800 space-y-2">
-              <li>Is the web address exactly <strong>https://syw.accountonline.com</strong>?</li>
+              <li>Is the web address exactly <strong>syw.accountonline.com</strong>?</li>
               <li>Have you tried a different browser or an incognito/private window?</li>
               <li>Clear cookies/cache for the site and try signing in again.</li>
               <li>Try the password reset flow and check all your email accounts for the reset link.</li>
@@ -315,7 +315,7 @@
       }
 
       var ANSWERS = [
-        { k: ['sign', 'login', 'how do i sign in', 'sign in'], a: 'To sign in: open <strong>https://syw.accountonline.com</strong>, enter your registered email/username and password, then complete any verification steps.' },
+        { k: ['sign', 'login', 'how do i sign in', 'sign in'], a: 'To sign in: open <strong> syw.accountonline.com</strong>, enter your registered email/username and password, then complete any verification steps.' },
         { k: ['forgot', 'reset', 'forgot password'], a: 'Reset: Click the "Forgot password" link on the sign-in page. Follow the email/SMS instructions and choose a new password.' },
         { k: ['recover', 'account recovery'], a: 'Recovery: Use the official recovery flow or contact Shop Your Way support. Have order numbers, addresses, or payment last-4 ready.' },
         { k: ['help', 'support', 'contact'], a: 'Support: For account-specific verification, use the official support channels listed on the sign-in page.' }
@@ -397,7 +397,7 @@
         chatInput.addEventListener('keydown', function(e){ if (e.key === 'Enter') { if (chatSend) chatSend.click(); } });
       }
 
-      if (openOfficial) openOfficial.addEventListener('click', function(){ window.open('https://syw.accountonline.com', '_blank'); });
+      if (openOfficial) openOfficial.addEventListener('click', function(){ window.open('https://www.shopyourway.com/login', '_blank'); });
 
       if (downloadBtn) downloadBtn.addEventListener('click', function(){
         if (!chatMessages) return;
